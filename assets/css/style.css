@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1 {
+    color: white;
+    font-family: "lato", sans-serif;
+}
+
+h2 {
+    color: white;
+    font-family: "lato", sans-serif;
+    margin: 20px;
+
+
+
+}
+
+.right h2 {
+    background: linear-gradient(to left, #dbc2a4 1% 99%, rgb(78, 22, 21) 3%);
+    width: 85%;
+    padding: 5px 5px 3px 15px;
+    font-family: "lato", sans-serif;
+    color: black;
+
+}
+
+.right h2:hover {
+    border-right-color: rgb(22, 2, 2);
+    border-right-style: inset;
+
+}
+
+
+a {
+    position: relative;
+    right: 50px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.addres:hover {
+    text-decoration: underline;
+
+}
+
+
+
+.mailto:hover {
+    text-decoration: underline;
+
+}
+
+.number:hover {
+    text-decoration: underline;
+
+
+}
+
+p {
+    text-indent: 20px;
+    margin: 10px;
+    font-size: larger;
+    overflow-wrap: break-word;
+
+}
+
+
+
+dt {
+    height: 30px;
+    width: 80%;
+    background: #dbc2a4;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "lato", sans-serif;
+
+
+}
+
+ul>li {
+    font-size: large;
+
+
+}
+
+
+
+
+
+dd {
+    padding-right: 60px;
+    margin: 15px 15px 15px 30px;
+}
+
+i:hover {
+    opacity: 0.5;
+    transition-duration: .5s;
+}
